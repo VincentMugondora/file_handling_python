@@ -20,3 +20,7 @@ f.close()
 #open and read the file after the overwriting:
 f = open("demofile3.txt", "r")
 print(f.read())
+
+# Create a new file if it does not exist:
+print("Final")
+f = open("delete_a_file.py", "w")
