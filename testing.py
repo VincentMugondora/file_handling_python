@@ -76,3 +76,24 @@ print("Read two lines of the file:")
 f = open("main.py", "r")
 print(f.readline())
 print(f.readline())
+
+print()
+# By looping through the lines of the file, you can read the whole file, line by line:
+
+# Example
+# Loop through the file line by line:
+print("Loop through the file line by line:")
+f = open("main.py", "r")
+for x in f:
+  print(x)
+
+
+# Close Files
+# It is a good practice to always close the file when you are done with it.
+
+# Example
+# Close the file when you are finished with it:
+
+f = open("demofile.txt", "r")
+print(f.readline())
+f.close()

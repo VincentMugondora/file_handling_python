@@ -1,5 +1,4 @@
 # name = "sama"
-
 # print(type(name))
 
 # integer types
